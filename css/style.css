@@ -1,0 +1,162 @@
+
+
+
+.footer-color{
+	color:white;
+}
+
+a.facebook{
+	color:white;
+}
+
+a.facebook:hover{
+	color:#64b5f6;
+	transition: .5s;
+}
+
+a.twitter{
+	color:white;
+}
+
+a.twitter:hover{
+	color:pink;
+	transition: .5s;
+}
+
+a.whatsapp{
+	color:white;
+}
+
+a.whatsapp:hover{
+	color:#1de9b6;
+	transition: .5s;
+}
+
+a.google{
+	color:white;
+}
+
+a.google:hover{
+	color:yellow;
+	transition: .5s;
+}
+
+a.instagram{
+	color:white;
+}
+
+a.instagram:hover{
+	color:aqua;
+	transition: .5s;
+}
+
+.uk-card-primary.uk-card-body .uk-logo, .uk-card-primary>:not([class*=uk-card-media]) .uk-logo, .uk-card-secondary.uk-card-body .uk-logo, .uk-card-secondary>:not([class*=uk-card-media]) .uk-logo, .uk-light .uk-logo, .uk-offcanvas-bar .uk-logo, .uk-overlay-primary .uk-logo, .uk-section-primary:not(.uk-preserve-color) .uk-logo, .uk-section-secondary:not(.uk-preserve-color) .uk-logo, .uk-tile-primary:not(.uk-preserve-color) .uk-logo, .uk-tile-secondary:not(.uk-preserve-color) .uk-logo{
+	color: white;
+}
+
+.uk-card-primary.uk-card-body .uk-navbar-item, .uk-card-primary>:not([class*=uk-card-media]) .uk-navbar-item, .uk-card-secondary.uk-card-body .uk-navbar-item, .uk-card-secondary>:not([class*=uk-card-media]) .uk-navbar-item, .uk-light .uk-navbar-item, .uk-offcanvas-bar .uk-navbar-item, .uk-overlay-primary .uk-navbar-item, .uk-section-primary:not(.uk-preserve-color) .uk-navbar-item, .uk-section-secondary:not(.uk-preserve-color) .uk-navbar-item, .uk-tile-primary:not(.uk-preserve-color) .uk-navbar-item, .uk-tile-secondary:not(.uk-preserve-color) .uk-navbar-item{
+	color: white;
+}
+
+.uk-card-primary.uk-card-body .uk-logo:focus, .uk-card-primary.uk-card-body .uk-logo:hover, .uk-card-primary>:not([class*=uk-card-media]) .uk-logo:focus, .uk-card-primary>:not([class*=uk-card-media]) .uk-logo:hover, .uk-card-secondary.uk-card-body .uk-logo:focus, .uk-card-secondary.uk-card-body .uk-logo:hover, .uk-card-secondary>:not([class*=uk-card-media]) .uk-logo:focus, .uk-card-secondary>:not([class*=uk-card-media]) .uk-logo:hover, .uk-light .uk-logo:focus, .uk-light .uk-logo:hover, .uk-offcanvas-bar .uk-logo:focus, .uk-offcanvas-bar .uk-logo:hover, .uk-overlay-primary .uk-logo:focus, .uk-overlay-primary .uk-logo:hover, .uk-section-primary:not(.uk-preserve-color) .uk-logo:focus, .uk-section-primary:not(.uk-preserve-color) .uk-logo:hover, .uk-section-secondary:not(.uk-preserve-color) .uk-logo:focus, .uk-section-secondary:not(.uk-preserve-color) .uk-logo:hover, .uk-tile-primary:not(.uk-preserve-color) .uk-logo:focus, .uk-tile-primary:not(.uk-preserve-color) .uk-logo:hover, .uk-tile-secondary:not(.uk-preserve-color) .uk-logo:focus, .uk-tile-secondary:not(.uk-preserve-color) .uk-logo:hover{
+	color: white;
+}
+
+.uk-card-primary.uk-card-body .uk-navbar-nav>li>a, .uk-card-primary>:not([class*=uk-card-media]) .uk-navbar-nav>li>a, .uk-card-secondary.uk-card-body .uk-navbar-nav>li>a, .uk-card-secondary>:not([class*=uk-card-media]) .uk-navbar-nav>li>a, .uk-light .uk-navbar-nav>li>a, .uk-offcanvas-bar .uk-navbar-nav>li>a, .uk-overlay-primary .uk-navbar-nav>li>a, .uk-section-primary:not(.uk-preserve-color) .uk-navbar-nav>li>a, .uk-section-secondary:not(.uk-preserve-color) .uk-navbar-nav>li>a, .uk-tile-primary:not(.uk-preserve-color) .uk-navbar-nav>li>a, .uk-tile-secondary:not(.uk-preserve-color) .uk-navbar-nav>li>a{
+	color: white;
+}
+
+
+.uk-divider-small::after{
+	width: 750px;
+}
+
+
+.uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover.my-web:hover{
+	background-color:#ff6e40;
+	transition: 3s;
+}
+
+.uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover.my-sis:hover{
+	background-color:#ff9800;
+	transition: 3s;
+}
+
+.uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover.my-pro:hover{
+	background-color:#00e676;
+	transition: 3s;
+}
+
+.uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover.my-office:hover{
+	background-color:#00b0ff;
+	transition: 3s;
+}
+
+.uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover.my-media:hover{
+	background-color:#7986cb;
+	transition: 3s;
+}
+
+.uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover.my-3d:hover{
+	background-color:#ce93d8;
+	transition: 3s;
+}
+
+.my-backgroudimg{
+	height: 660px;
+}
+
+
+
+@media (max-width: 1024px) {
+	.uk-divider-small::after{
+		width: 300px;
+	}
+	.uk-button{
+		font-size: 9px;
+	}
+	.my-text{
+		font-size: 10px;
+	}
+	.my-backgroudimg{
+		height: 640px;
+	}
+}
+
+
+@media (max-width: 640px) {
+	.uk-divider-small::after{
+		width: 100px;
+	}
+	.my-text{
+		font-size: 14px;
+	}
+	.uk-button{
+		font-size: 14px;
+	}
+	.my-backgroudimg{
+		height: 620px;
+	}
+}
+
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+ }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hide-loader{
+display:none;
+}
+
+
+
